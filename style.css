@@ -18,6 +18,10 @@ button{
   color: white;
 }
 
+img{
+  border: .5em solid white;
+}
+
 
 .container {
   background-color: #7DA8A2;
@@ -27,22 +31,14 @@ button{
   border-radius: 3em;
 }
 
-.catDog{
+.centered{
   text-align: center;
-  padding: 2em;
+  padding: 1em;
   color: white;
 
 }
 
-
-
 .center{
   display: inline;
   text-align: center;
-}
-
-.404 h1{
-  display: inline;
-  text-align: center;
-
 }
