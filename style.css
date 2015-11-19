@@ -1,0 +1,40 @@
+body {
+  background-color: #EAD3C9;
+}
+header h1{
+  text-align: center;
+  color: white;
+}
+.container {
+  background-color: #7DA8A2;
+  height: 600px;
+  width: 70%;
+  opacity: .7;
+  border-radius: 3em;
+}
+
+.dog {
+background-color: white;
+height: 250;
+width: 50%;
+
+}
+
+
+.cat{
+
+
+}
+
+button{
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  border-radius: .5em;
+}
+
+.center{
+  display: inline;
+  text-align: center;
+
+}
