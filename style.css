@@ -5,6 +5,20 @@ header h1{
   text-align: center;
   color: white;
 }
+a:link{
+  color:none;
+  text-decoration: none;
+}
+button{
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  border-radius: .5em;
+  text-decoration: none;
+  color: white;
+}
+
+
 .container {
   background-color: #7DA8A2;
   height: 600px;
@@ -13,27 +27,21 @@ header h1{
   border-radius: 3em;
 }
 
-.dog {
-background-color: white;
-height: 250;
-width: 50%;
-
-}
-
-
-.cat{
-
-
-}
-
-button{
-  height: 80px;
-  width: 80px;
+.catDog{
   text-align: center;
-  border-radius: .5em;
+  padding: 2em;
+  color: white;
+
 }
+
+
 
 .center{
+  display: inline;
+  text-align: center;
+}
+
+.404 h1{
   display: inline;
   text-align: center;
 

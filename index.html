@@ -8,18 +8,21 @@
     <meta charset="utf-8">
     <title>CatDog</title>
   </head>
-  <body>
+
+  <body ng-app="routeEx">
     <header>
       <h1>CatDog</h1>
     </header>
     <div class="container">
       <div class="catDog">
-        <button class="center"  name="button"><h1>Dog</h1></button>
-        <button class="center"  name="button"><h1>Cat</h1></button>
+        <a href="#/view2"><button class="center">Cat</button></a>
+        <a href="#/view1"><button class="center">Dog</button></a>
         <br/>
-        <img src="https://upload.wikimedia.org/wikipedia/en/6/64/CatDog.jpeg"/>
 
       </div>
+      <div ng-view=""></div>
+<a href="https://media.giphy.com/media/5qoRdabXeT4GY/giphy.gif"> AHHHH </a>
+
 
   <script src="lib/angular-route.js"></script>
   <script src="script.js"></script>
